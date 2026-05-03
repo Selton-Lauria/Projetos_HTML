@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Etheric';
+    src: url(Ethnocentric-Regular.otf);
+}
+body {
+    background-color: pink;
+}
+header {
+    font-family: 'Etheric';
+    text-align: center;
+    border: 5px solid purple;
+    background-color: cornflowerblue;
+}
+h1 {
+    color: blueviolet;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+main {
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+h2 {
+    font-weight: bold;
+    color: rgb(12, 148, 148);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article {
+    padding: 10px;
+    display: inline-block;
+}
+img {
+    max-width: 300px;
+    max-height: 200px;
+}
+figcaption {
+    color: rgb(14, 38, 143);
+    font-size: 20px;
+}
+figure > p {
+    max-width: 400px;
+}
+footer {
+    font-size: 12px;
+    border: 5px solid purple;
+    background-color: cornflowerblue;
+    color: rgb(86, 12, 155);
+    padding: 5px;
+}
+footer > p {
+    font-family: 'Etheric';
+}
