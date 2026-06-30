@@ -13,10 +13,12 @@ header {
 }
 h1 {
     color: blueviolet;
+    text-shadow: 1px 1px 1px black;
 }
 a {
     text-decoration: none;
     padding: 10px;
+    color: blue;
 }
 a:hover {
     color: red;
@@ -31,6 +33,7 @@ h2 {
     font-weight: bold;
     color: rgb(12, 148, 148);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px black;
 }
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,6 +41,20 @@ p {
 article {
     padding: 10px;
     display: inline-block;
+}
+h3 {
+    color: rgb(12, 103, 148);
+    padding-bottom: 10px;
+}
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.inicio {
+    border: 2px solid purple;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 2px 2px 1px rgba(0, 0, 0, 0.208);
 }
 img {
     max-width: 300px;
@@ -59,4 +76,7 @@ footer {
 }
 footer > p {
     font-family: 'Etheric';
+}
+.atual {
+    color: red;
 }
